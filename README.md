@@ -3,8 +3,19 @@
 ## Project Overview
 This project focuses on cleaning and analyzing an HR dataset to ensure data integrity and provide meaningful insights through a workforce dashboard. The dataset contains 311 employee records with 36 columns of demographic and employment information.
 
-## Dashboard
-![HR Analytics Dashboard](image_Meet_the_Workforce-_HR_Analytics_Report.pdf_0_38.png)
+## Dashboards
+
+### Workforce Overview
+![Workforce Overview Dashboard](image_Meet_the_Workforce-_HR_Analytics_Report.pdf_0_38.png)
+Provides a high-level view of the workforce distribution by department, marital status, and gender, along with key recruitment metrics.
+
+### Leave & Resignation
+![Leave & Resignation Dashboard](image_Meet_the_Workforce-_HR_Analytics_Report.pdf_0_26.png)
+Analyzes attrition rates, termination reasons, and demographic breakdown of employees who have left the company.
+
+### Performance & Evaluation
+![Performance & Evaluation Dashboard](image_Meet_the_Workforce-_HR_Analytics_Report.pdf_0_34.png)
+Visualizes employee performance scores, satisfaction levels, and the relationship between tenure and performance across different managers and departments.
 
 ## Data Cleaning Process
 The project involves a robust data cleaning pipeline implemented in Python, specifically addressing common issues found in HR Information Systems (HRIS):
@@ -19,6 +30,7 @@ The project involves a robust data cleaning pipeline implemented in Python, spec
 - **Python**: Core programming language.
 - **Pandas**: For data manipulation and analysis.
 - **NumPy**: For numerical operations.
+- **PyMuPDF (fitz)**: For PDF image extraction.
 
 ## Files
 - `Fixing_Data_Issues_in_HR_Dataset.ipynb`: Jupyter notebook containing the data cleaning logic.
